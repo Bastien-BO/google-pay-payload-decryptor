@@ -1,0 +1,9 @@
+[package]
+name = "google_pay_payload_decryptor"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+derivative = "2.2.0"
+hyper = "0.14"
+reqwest = "0.11.10"
