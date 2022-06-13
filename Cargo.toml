@@ -1,9 +1,11 @@
 [package]
-name = "google_pay_payload_decryptor"
-version = "0.1.0"
+description = "Allow a payment service provider (PSP) to convert encrypted card informations obtained by a merchant into usable data to perform a payment"
 edition = "2021"
+homepage = "https://github.com/Bastien-BO/google-pay-payload-decryptor"
+name = "google_pay_payload_decryptor"
+publish = false
+version = "0.1.0"
 
 [dependencies]
 derivative = "2.2.0"
-hyper = "0.14"
 reqwest = "0.11.10"
